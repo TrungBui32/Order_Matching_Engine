@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../order_matching_engine.srcs/sources_1/new/fifo.v" \
+"../../../../order_matching_engine.srcs/sources_1/new/match_engine.v" \
+"../../../../order_matching_engine.srcs/sources_1/new/top_module.v" \
+"../../../../order_matching_engine.srcs/sources_1/new/uart_rx.v" \
+"../../../../order_matching_engine.srcs/sources_1/new/uart_tx.v" \
+"../../../../order_matching_engine.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

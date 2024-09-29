@@ -1,0 +1,13 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto fc9644a38cb64e20a2d737a390bff140 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port match_found on this module [C:/Users/admin/Learning/FPGA-projects/order_matching_engine/order_matching_engine.srcs/sim_1/new/testbench.v:46]
+ERROR: [VRFC 10-426] cannot find port matched_data on this module [C:/Users/admin/Learning/FPGA-projects/order_matching_engine/order_matching_engine.srcs/sim_1/new/testbench.v:45]
+ERROR: [VRFC 10-426] cannot find port send on this module [C:/Users/admin/Learning/FPGA-projects/order_matching_engine/order_matching_engine.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-426] cannot find port data_in on this module [C:/Users/admin/Learning/FPGA-projects/order_matching_engine/order_matching_engine.srcs/sim_1/new/testbench.v:41]
+ERROR: [VRFC 10-2063] Module <uart_rx> not found while processing module instance <uart_receiver> [C:/Users/admin/Learning/FPGA-projects/order_matching_engine/order_matching_engine.srcs/sources_1/new/top_module.v:140]
+ERROR: [VRFC 10-2063] Module <uart_tx> not found while processing module instance <uart_transmitter> [C:/Users/admin/Learning/FPGA-projects/order_matching_engine/order_matching_engine.srcs/sources_1/new/top_module.v:148]
+ERROR: [VRFC 10-2063] Module <fifo> not found while processing module instance <buy_fifo> [C:/Users/admin/Learning/FPGA-projects/order_matching_engine/order_matching_engine.srcs/sources_1/new/top_module.v:156]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
