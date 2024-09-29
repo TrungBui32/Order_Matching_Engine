@@ -101,7 +101,7 @@ class OrderMatchingGUI(QMainWindow):
     def add_order_to_table(self, table, timestamp, price, quantity):
         # Insert a new row at the top of the table (FIFO behavior)
         table.insertRow(0)
-        table.setItem(0, 0, QTableWidgetItem(timestamp))
+        table.setItem(0, 0, QTableWidgetItem(timestamp))main
         table.setItem(0, 1, QTableWidgetItem(price))
         table.setItem(0, 2, QTableWidgetItem(quantity))
 
