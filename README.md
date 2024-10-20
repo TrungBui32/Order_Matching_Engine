@@ -22,46 +22,6 @@ The Order Matching Engine is a Python and Verilog-based project designed to hand
   - Utilizes UART for serial communication between the GUI and FPGA.
   - Supports two types of orders: buy and sell, with proper data encoding.
 
-## Prerequisites
-
-To run this project, you'll need:
-
-- Python 3.11
-- PyQt5
-- pyserial library for serial communication (install via pip):
-  ```bash
-  pip install pyserial
-  ```
-- An FPGA development board (e.g., Basys 3) with the Verilog code implemented.
-- A suitable IDE or text editor for Python and Verilog development.
-
-## Getting Started
-
-### 1. Setting Up the FPGA
-
-1. **Upload the Verilog Code**: Load the provided Verilog files into your FPGA development environment and synthesize the design.
-2. **Connect the FPGA**: Ensure your FPGA is connected to your computer via USB or serial port.
-
-### 2. Running the GUI
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/TrungBui32/Order_Matching_Engine.git
-   cd Harvard_Central_Processing_Unit 
-   ```
-
-2. **Run the Python GUI**:
-   Ensure the correct COM port is specified in the Python code (`COM8` in this example).
-   ```bash
-   python main.py
-   ```
-
-3. **Using the GUI**:
-   - Select an order type (Buy/Sell).
-   - Input the price and quantity.
-   - Click "Submit Order" to send the order to the FPGA.
-   - Matched orders will be displayed in real-time.
-
 ## Architecture
 
 ### GUI (Python - PyQt5)
